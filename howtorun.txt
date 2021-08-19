@@ -1,0 +1,7 @@
+--for building the docker image--
+docker build -t pydockflaskapp .
+--for running the docker image in a container--
+-this is normal-
+docker run imageIdOfDockerImage
+-this is for flask-
+docker run -p 8000:8000 nameofDockerImage
